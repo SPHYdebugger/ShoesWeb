@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $descripcion = $_POST['description'];
         $precio = $_POST['price'];
 
-        // Crear un nuevo objeto Product
+        // Crear un nuevo objeto Controller
 
         $newProduct = new Product($id,$nombre, $descripcion,$precio);
 
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 <?php
 
-require('../../../includes/footer.php');
+require('../../../Includes/footer.php');
 ?>
 
 

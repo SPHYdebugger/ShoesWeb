@@ -1,5 +1,5 @@
 <?php
-require("../includes/header.php");
+require("../Includes/header.php");
 setcookie("idioma","selecionar la opción de idioma");
 setcookie("accederUbicacion","permitir utilizar la ubicación");
 ?>
@@ -36,6 +36,6 @@ setcookie("accederUbicacion","permitir utilizar la ubicación");
     </main>
 
 <?php
-include("../includes/footer.php");
+include("../Includes/footer.php");
 ?>
 

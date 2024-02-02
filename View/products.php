@@ -1,6 +1,6 @@
 <?php
-require("../includes/header.php");
-require('../resources\db\Product\arrayProducts.php');
+require("../Includes/header.php");
+require('../Controller/arrayProducts.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resources\db\Product\deleteProduct.php'])) {}
 
@@ -57,5 +57,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resources\db\Product\
     </main>
 
 <?php
-include("../includes/footer.php");
+include("../Includes/footer.php");
 ?>
