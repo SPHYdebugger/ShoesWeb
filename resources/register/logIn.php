@@ -2,7 +2,6 @@
 session_start();
 
 $usuarios = array(
-    'santi' => 'perez',
     'PracticasSIO' => '12345',
 );
 

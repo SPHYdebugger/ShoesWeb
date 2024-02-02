@@ -1,9 +1,5 @@
 <?php
 require("../Includes/header.php");
-require('../Controller/arrayProducts.php');
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resources\db\Product\deleteProduct.php'])) {}
-
 ?>
 
     <main role="main" >
@@ -11,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resources\db\Product\
         <div class="container" style="margin-top: 150px">
 
             <h2 style="text-align: center;">LISTA DE MODELOS</h2>
-            <table class="table container" style="margin-top: 50px">
+            <table class="table container" style="margin-top: 50px; ">
                 <div class="container d-flex justify-content-center">
                     <tr>
                         <th>
